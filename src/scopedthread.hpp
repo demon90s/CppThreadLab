@@ -1,6 +1,7 @@
 #pragma once
 
 #include <thread>
+#include <stdexcept>
 
 class ScopedThread
 {

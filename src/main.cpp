@@ -2,6 +2,7 @@
 #include "start_thread.hpp"
 #include "test_threadguard.hpp"
 #include "test_scopedthread.hpp"
+#include "test_parallel_accumulate.hpp"
 
 int main()
 {
@@ -15,7 +16,9 @@ int main()
 
     //test_threadguard();
 
-    test_scopedthread();
+    //test_scopedthread();
+
+    test_parallel_accumulate();
 
     std::cout << "press Enter to exist..." << std::endl;
     std::cin.get();
